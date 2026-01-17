@@ -1,15 +1,51 @@
-# Bintang KR's Portfolio
+# Bintang KR's Premium Portfolio
 
-Hi, I'm **Bintang KR**, a 17-year-old **Web Developer**. I study at **SMA 1 Purwoharjo** and I love building interactive, modern websites.
+Hi, I'm **Bintang KR**, a 17-year-old **Web Developer**. I study at **SMA 1 Purwoharjo** and I love building interactive, modern websites.  
 
-This repository contains my personal portfolio website, showcasing my projects, skills, and experience.
+This repository contains my **premium personal portfolio website** showcasing my projects, skills, and testimonials.
+
+---
+
+## Features
+- Modern gradient hero with text animations  
+- Glassmorphism project cards  
+- Portfolio filter by category (Web / UI/UX)  
+- Project modal/lightbox to view details  
+- Scroll animations (fade/slide)  
+- Dark/Light mode with smooth transitions  
+- Animated skill bars  
+- Testimonials slider  
+- Back-to-top button  
+- Responsive & mobile-friendly  
 
 ---
 
 ## Skills
-- HTML, CSS, JavaScript, React
-- Responsive & Interactive UI
-- Web Animations & UX Design
+- HTML, CSS, JavaScript, React  
+- Responsive & Interactive UI  
+- Web Animations & UX Design  
+
+---
+
+## Portfolio Preview
+
+### Projects
+| Project | Category |
+|---------|----------|
+| Project 1 | Web |
+| Project 2 | UI/UX |
+| Project 3 | Web |
+
+Click on **View** in each project to see it in modal view.  
+
+*(Live portfolio link via GitHub Pages: replace with your link once deployed)*
+
+---
+
+## Testimonials
+- *"Bintang is a talented developer, highly recommended!"* – Client A  
+- *"Delivered amazing projects on time."* – Client B  
+- *"Professional, creative, and dedicated."* – Client C  
 
 ---
 
@@ -20,21 +56,5 @@ You can reach me via social media:
 
 ---
 
-## Portfolio Preview
-Visit my live portfolio here: *(replace with your GitHub Pages link once deployed)*
-
-### Projects
-1. **Project 1** – Web Development  
-2. **Project 2** – UI/UX Design  
-3. **Project 3** – Web Development  
-
----
-
 ## Education
 - **SMA 1 Purwoharjo** – Current Student
-
----
-
-## Experience
-- **Front-end Developer** – ABC Company (2022 - Present)
-  - Building responsive websites and interactive apps.
