@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bintang KR Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="logo">Bintang KR</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><button id="theme-toggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content" data-parallax>
+      <h1>Hi, I'm Bintang KR</h1>
+      <p>17 years old | Web Developer | SMA 1 Purwoharjo</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about section">
+    <h2>About Me</h2>
+    <p>I am a passionate 17-year-old Web Developer studying at SMA 1 Purwoharjo. I love building interactive, modern websites and learning new technologies.</p>
+    <div class="skills">
+      <div class="skill"><span>HTML</span><div class="skill-bar"><div style="width:95%"></div></div></div>
+      <div class="skill"><span>CSS</span><div class="skill-bar"><div style="width:90%"></div></div></div>
+      <div class="skill"><span>JavaScript</span><div class="skill-bar"><div style="width:85%"></div></div></div>
+      <div class="skill"><span>React</span><div class="skill-bar"><div style="width:80%"></div></div></div>
+    </div>
+  </section>
+
+  <!-- Portfolio Slider -->
+  <section id="portfolio" class="portfolio section">
+    <h2>My Projects</h2>
+    <div class="carousel">
+      <div class="carousel-track">
+        <div class="carousel-item"><img src="images/project1.jpg" alt="Project 1"><h3>Project 1</h3></div>
+        <div class="carousel-item"><img src="images/project2.jpg" alt="Project 2"><h3>Project 2</h3></div>
+        <div class="carousel-item"><img src="images/project3.jpg" alt="Project 3"><h3>Project 3</h3></div>
+      </div>
+      <button class="carousel-btn prev">‹</button>
+      <button class="carousel-btn next">›</button>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="experience section">
+    <h2>Experience & Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Front-end Developer</h3>
+        <span>2022 - Present | ABC Company</span>
+        <p>Building responsive websites and interactive apps.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Bachelor's in Computer Science</h3>
+        <span>2018 - 2022 | XYZ University</span>
+        <p>Graduated with honors, focused on web development and design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="socials">
+      <p>Age: 17 | School: SMA 1 Purwoharjo</p>
+      <a href="https://instagram.com/gentoletttt" target="_blank">Instagram</a>
+      <a href="https://www.tiktok.com/@krekmod" target="_blank">TikTok</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Bintang KR. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
